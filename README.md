@@ -1,5 +1,8 @@
 # Paired Delete
 
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/xendk/paired-delete.el/test.yml?branch=main&style=for-the-badge)](https://github.com/xendk/paired-delete.el/actions?query=branch%3Amain)
+[![Codecov](https://img.shields.io/codecov/c/github/xendk/paired-delete.el?style=for-the-badge)](https://app.codecov.io/gh/xendk/paired-delete.el)
+
 This is a companion mode to
 [`smartparens`](https://github.com/Fuco1/smartparens) that ensures that
 `smartparens` pairs are deleted in, well, pairs.
