@@ -66,8 +66,7 @@ only work when ARG is 1 or the region is not active."
   "Advice for delete char.
 
 ORIG-FUN is the overridden function. Passes N and KILL-FLAG to original."
-  (if (and paired-delete-mode
-           (not (bound-and-true-p paired-delete-char-disabled)))
+  (if (not (bound-and-true-p paired-delete-char-disabled))
       (let ((paired-delete-char-disabled t))
         (save-match-data
           (if (not (paired-delete (> 0 n) (abs n)))
