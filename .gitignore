@@ -3,3 +3,5 @@
 /Eldev-local
 
 /coverage-final.json
+/paired-delete-autoloads.el
+*.elc
